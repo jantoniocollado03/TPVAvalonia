@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TPVAvalonia")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c368a4571a446a3035800ef7f71a41d62f29623f")]
 [assembly: System.Reflection.AssemblyProductAttribute("TPVAvalonia")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TPVAvalonia")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "CLahBZprYD0=",
+  "dgSpecHash": "80vntrTuFHM=",
   "success": true,
   "projectFilePath": "C:\\Users\\janto\\RiderProjects\\TPVAvalonia\\TPVAvalonia\\TPVAvalonia\\TPVAvalonia.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\janto\\.nuget\\packages\\avalonia\\11.3.12\\avalonia.11.3.12.nupkg.sha512",
+    "C:\\Users\\janto\\.nuget\\packages\\avalonia.buildservices\\11.3.2\\avalonia.buildservices.11.3.2.nupkg.sha512",
+    "C:\\Users\\janto\\.nuget\\packages\\avalonia.controls.datagrid\\11.3.12\\avalonia.controls.datagrid.11.3.12.nupkg.sha512",
+    "C:\\Users\\janto\\.nuget\\packages\\avalonia.remote.protocol\\11.3.12\\avalonia.remote.protocol.11.3.12.nupkg.sha512",
+    "C:\\Users\\janto\\.nuget\\packages\\microcom.runtime\\0.11.0\\microcom.runtime.0.11.0.nupkg.sha512"
+  ],
   "logs": []
 }

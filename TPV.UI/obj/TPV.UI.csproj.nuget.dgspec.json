@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\janto\\RiderProjects\\TPVAvalonia\\TPVAvalonia\\TPVAvalonia\\TPVAvalonia.csproj": {}
+    "C:\\Users\\janto\\RiderProjects\\TPVAvalonia\\TPVAvalonia\\TPV.UI\\TPV.UI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\janto\\RiderProjects\\TPVAvalonia\\TPVAvalonia\\TPVAvalonia\\TPVAvalonia.csproj": {
+    "C:\\Users\\janto\\RiderProjects\\TPVAvalonia\\TPVAvalonia\\TPV.UI\\TPV.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\janto\\RiderProjects\\TPVAvalonia\\TPVAvalonia\\TPVAvalonia\\TPVAvalonia.csproj",
-        "projectName": "TPVAvalonia",
-        "projectPath": "C:\\Users\\janto\\RiderProjects\\TPVAvalonia\\TPVAvalonia\\TPVAvalonia\\TPVAvalonia.csproj",
+        "projectUniqueName": "C:\\Users\\janto\\RiderProjects\\TPVAvalonia\\TPVAvalonia\\TPV.UI\\TPV.UI.csproj",
+        "projectName": "TPV.UI",
+        "projectPath": "C:\\Users\\janto\\RiderProjects\\TPVAvalonia\\TPVAvalonia\\TPV.UI\\TPV.UI.csproj",
         "packagesPath": "C:\\Users\\janto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\janto\\RiderProjects\\TPVAvalonia\\TPVAvalonia\\TPVAvalonia\\obj\\",
+        "outputPath": "C:\\Users\\janto\\RiderProjects\\TPVAvalonia\\TPVAvalonia\\TPV.UI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -51,7 +51,27 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "dependencies": {
+            "Avalonia": {
+              "target": "Package",
+              "version": "[11.3.12, )"
+            },
             "Avalonia.Controls.DataGrid": {
+              "target": "Package",
+              "version": "[11.3.12, )"
+            },
+            "Avalonia.Desktop": {
+              "target": "Package",
+              "version": "[11.3.12, )"
+            },
+            "Avalonia.Diagnostics": {
+              "target": "Package",
+              "version": "[11.3.12, )"
+            },
+            "Avalonia.Fonts.Inter": {
+              "target": "Package",
+              "version": "[11.3.12, )"
+            },
+            "Avalonia.Themes.Fluent": {
               "target": "Package",
               "version": "[11.3.12, )"
             }

@@ -1,0 +1,65 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="TPV.UI.MainWindow"
+        Title="TPV.UI">
+    <TabControl>
+
+        <!-- PRIMERA PESTAÑA: Todo tu código que está perfecto va aquí -->
+        <TabItem Header="Caja">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" /> 
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Column="0">
+                    <TextBlock Text="Búsqueda de Productos" FontSize="20" FontWeight="Bold"/>
+                </StackPanel>
+                
+                <StackPanel Grid.Column="1" Margin="10">
+                    <TextBlock Text="Carrito de Compra" FontSize="20" FontWeight="Bold"/>
+                    <ListBox x:Name="lstCarrito" Height="300"/> 
+                    <TextBlock x:Name="txtTotal" Text="Total: 0.00 €" FontSize="30" Foreground="Red" Margin="0,10,0,10"/>
+                    <Button x:Name="btnCobrar" Content="COBRAR" Background="Green" Foreground="White" FontSize="24" HorizontalAlignment="Stretch" Height="60"/>
+                </StackPanel>
+            </Grid>
+        </TabItem>
+
+        <!-- SEGUNDA PESTAÑA: La dejamos preparada para el siguiente paso -->
+        <TabItem Header="Administración">
+            <Grid>
+                <!-- Dividimos en dos filas: una para la tabla y otra para el formulario -->
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" /> <!-- La tabla ocupará todo el espacio disponible -->
+                    <RowDefinition Height="Auto" /> <!-- El formulario ocupará solo su propio alto -->
+                </Grid.RowDefinitions>
+
+                <!-- 1. El DataGrid para mostrar el inventario (Fila 0 = Arriba) -->
+                <DataGrid x:Name="dgInventario" Grid.Row="0" Margin="10" />
+
+                <!-- 2. Formulario de alta de productos (Fila 1 = Abajo)[cite: 1] -->
+                <!-- Usamos un StackPanel con Orientation="Horizontal" para poner los controles uno al lado del otro -->
+                <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="10" Spacing="10">
+                    
+                    <!-- Cajas de texto (TextBox) para meter los datos del producto[cite: 1] -->
+                    <TextBlock Text="Código:" VerticalAlignment="Center"/>
+                    <TextBox x:Name="txtCodigo" Width="80"/>
+                    
+                    <TextBlock Text="Nombre:" VerticalAlignment="Center"/>
+                    <TextBox x:Name="txtNombre" Width="150"/>
+                    
+                    <TextBlock Text="Precio:" VerticalAlignment="Center"/>
+                    <TextBox x:Name="txtPrecio" Width="80"/>
+                    
+                    <!-- Botón para guardar el producto[cite: 1] -->
+                    <Button x:Name="btnAgregarProducto" Content="AÑADIR" Background="Blue" Foreground="White"/>
+                    
+                </StackPanel>
+            </Grid>
+        </TabItem>
+
+    </TabControl>
+</Window>

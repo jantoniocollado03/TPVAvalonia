@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("TPVAvalonia")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("TPV.UI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f75c74449cb3228794a0a5cf6f7e8b89026893d4")]
-[assembly: System.Reflection.AssemblyProductAttribute("TPVAvalonia")]
-[assembly: System.Reflection.AssemblyTitleAttribute("TPVAvalonia")]
+[assembly: System.Reflection.AssemblyProductAttribute("TPV.UI")]
+[assembly: System.Reflection.AssemblyTitleAttribute("TPV.UI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.

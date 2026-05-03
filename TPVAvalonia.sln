@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPVAvalonia", "TPVAvalonia\TPVAvalonia.csproj", "{7B8FD675-871A-4F8E-A51E-CD03005D4038}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPV.UI", "TPV.UI\TPV.UI.csproj", "{2ED55EB8-0FB7-4E57-B6BC-BB559E72E827}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{7B8FD675-871A-4F8E-A51E-CD03005D4038}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B8FD675-871A-4F8E-A51E-CD03005D4038}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B8FD675-871A-4F8E-A51E-CD03005D4038}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ED55EB8-0FB7-4E57-B6BC-BB559E72E827}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ED55EB8-0FB7-4E57-B6BC-BB559E72E827}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ED55EB8-0FB7-4E57-B6BC-BB559E72E827}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ED55EB8-0FB7-4E57-B6BC-BB559E72E827}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
